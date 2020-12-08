@@ -19,7 +19,7 @@ timer.start();
 ```
 
 - Type 2 RUN UI
-```
+```java
 new Handler().postDelayed(new Runnable() {
     @Override
     public void run() {
