@@ -1,6 +1,6 @@
 # SplashScreen
 
-
+- Type 1 No RUN UI
 ```java
 Thread timer = new Thread(){
     public void run(){
@@ -16,8 +16,18 @@ Thread timer = new Thread(){
     }
 };
 timer.start();
-
 ```
+
+- Type 2 RUN UI
+```
+new Handler().postDelayed(new Runnable() {
+    @Override
+    public void run() {
+        ///action
+    }
+}, 4000);
+```
+
 ---
 
 ```
